@@ -2,6 +2,7 @@
 
 package com.pixelmed.doseocr;
 
+import com.mycompany.pixelmedfork.dicom.SequenceItem;
 import com.pixelmed.anatproc.CTAnatomy;
 import com.pixelmed.anatproc.DisplayableAnatomicConcept;
 import com.pixelmed.dicom.*;

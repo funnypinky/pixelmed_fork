@@ -2,6 +2,7 @@
 
 package com.pixelmed.dicom;
 
+import com.mycompany.pixelmedfork.dicom.SequenceItem;
 import javax.swing.tree.*;
 import javax.swing.event.*;
 import java.util.*;

@@ -11,7 +11,7 @@ import com.pixelmed.dicom.CodedSequenceItem;
 import com.pixelmed.dicom.DicomException;
 import com.pixelmed.dicom.DicomInputStream;
 import com.pixelmed.dicom.SequenceAttribute;
-import com.pixelmed.dicom.SequenceItem;
+import com.mycompany.pixelmedfork.dicom.SequenceItem;
 import com.pixelmed.dicom.TagFromName;
 
 /**

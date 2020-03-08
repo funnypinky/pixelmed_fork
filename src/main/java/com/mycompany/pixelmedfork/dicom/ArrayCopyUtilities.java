@@ -1,6 +1,6 @@
 /* Copyright (c) 2001-2009, David A. Clunie DBA Pixelmed Publishing. All rights reserved. */
 
-package com.pixelmed.dicom;
+package com.mycompany.pixelmedfork.dicom;
 
 /**
  * <p>A class of static methods for copying data between arrays of different types,

@@ -2,7 +2,7 @@
 
 // Automatically generated from template - EDITS WILL BE LOST
 
-package com.pixelmed.dicom;
+package com.mycompany.pixelmedfork.dicom;
 
 public class TagFromName {
 

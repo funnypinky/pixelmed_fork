@@ -1,6 +1,6 @@
 /* Copyright (c) 2001-2004, David A. Clunie DBA Pixelmed Publishing. All rights reserved. */
 
-package com.pixelmed.dicom;
+package com.mycompany.pixelmedfork.dicom;
 
 /**
  * <p>A class to provide enumerated constants for the entities of the DICOM Information Model.</p>

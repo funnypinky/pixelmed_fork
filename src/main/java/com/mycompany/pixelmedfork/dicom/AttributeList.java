@@ -1,6 +1,6 @@
 /* Copyright (c) 2001-2012, David A. Clunie DBA Pixelmed Publishing. All rights reserved. */
 
-package com.pixelmed.dicom;
+package com.mycompany.pixelmedfork.dicom;
 
 import java.util.*;
 import java.io.*;
@@ -905,13 +905,11 @@ System.err.println("Illegal duplicate tag in dataset - "+tag+" - replacing previ
 				di.setFile(file);	// need this to allow large PixelData OX to be left on disk (000596)
 			}
 			read(di,stopAtTag);
-		}
-		catch (IOException e) {
+		}catch (IOException e) {
 			throw e;			// we do this so that the finally will execute, whether an exception or not
 		}
-		catch (DicomException e) {
-			throw e;			// we do this so that the finally will execute, whether an exception or not
-		}
+            // we do this so that the finally will execute, whether an exception or not
+
 		finally {
 			if (di != null) {
 				try {
@@ -945,13 +943,11 @@ System.err.println("Illegal duplicate tag in dataset - "+tag+" - replacing previ
 			i=new BufferedInputStream(i);
 			di = new DicomInputStream(i,null,true/*hasMeta*/);
 			readOnlyMetaInformationHeader(di);
-		}
-		catch (IOException e) {
+		}catch (IOException e) {
 			throw e;			// we do this so that the finally will execute, whether an exception or not
 		}
-		catch (DicomException e) {
-			throw e;			// we do this so that the finally will execute, whether an exception or not
-		}
+            // we do this so that the finally will execute, whether an exception or not
+
 		finally {
 			if (di != null) {
 				try {

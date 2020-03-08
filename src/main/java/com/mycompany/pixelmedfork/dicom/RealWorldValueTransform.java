@@ -2,6 +2,7 @@
 
 package com.pixelmed.dicom;
 
+import com.mycompany.pixelmedfork.dicom.SequenceItem;
 import java.util.*;
 import com.pixelmed.utils.FloatFormatter;
 

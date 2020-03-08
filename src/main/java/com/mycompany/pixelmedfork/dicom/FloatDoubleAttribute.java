@@ -1,6 +1,6 @@
 /* Copyright (c) 2001-2012, David A. Clunie DBA Pixelmed Publishing. All rights reserved. */
 
-package com.pixelmed.dicom;
+package com.mycompany.pixelmedfork.dicom;
 
 import java.io.*;
 import com.pixelmed.utils.FloatFormatter;

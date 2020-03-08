@@ -1,6 +1,6 @@
 /* Copyright (c) 2001-2004, David A. Clunie DBA Pixelmed Publishing. All rights reserved. */
 
-package com.pixelmed.dicom;
+package com.mycompany.pixelmedfork.dicom;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
@@ -10,9 +10,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Vector;
 
-import com.pixelmed.dicom.AttributeList;
+import com.mycompany.pixelmedfork.dicom.AttributeList;
 import com.pixelmed.dicom.DicomInputStream;
-import com.pixelmed.dicom.TagFromName;
+import com.mycompany.pixelmedfork.dicom.TagFromName;
 
 /**
  * <p>A class to encapsulate patient and study information to be used for coercion of
